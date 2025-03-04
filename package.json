@@ -1,0 +1,17 @@
+{
+  "name": "devtinder",
+  "version": "1.0.0",
+  "description": "this is backend for dev tinder",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ujjawal Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
